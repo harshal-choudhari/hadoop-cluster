@@ -1,0 +1,30 @@
+[DEFAULT]
+ipList = NA
+hostList = NA
+
+[operation]
+opType = install
+
+[masterInfo]
+masterIp = 192.168.1.100
+masterHostName = master
+ipList = 192.168.1.1,192.168.1.2,192.168.1.3
+hostList = slave01,slave02,slave03
+
+[systemInfo]
+hduserPassword = hadoop
+machineType = master
+machineIp = 192.168.1.100
+machineHostName = master
+
+
+[paths]
+install_path = /opt/fts
+jar_tar_file = /home/lord/jdk-8u20-linux-i586.tar.gz
+hadoop_tar_file = /home/lord/hadoop-2.6.0.tar.gz
+java_home = /opt/fts/java
+hadoop_home = /opt/fts/hadoop
+java_dir = /opt/fts/java
+hadoop_dir = /opt/fts/hadoop
+logFilePath = /opt/userLogs
+home_dir = /home/hduser

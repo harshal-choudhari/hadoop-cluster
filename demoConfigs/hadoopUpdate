@@ -1,0 +1,9 @@
+[operation]
+opType = updateHadoop
+
+[systemInfo]
+machineType = slave
+hduserPassword = hadoop
+
+[paths]
+logFilePath = /opt/userLogs

@@ -1,0 +1,18 @@
+INSTALLATION:
+			1. Edit hadoopConfig file with respective configuration
+			2. Edit hadoop configuration files as per requirement located in hadoop folder. 
+			3. Enter Ip address in hadoop/interfaces file.
+
+DEMO CONFIGURATION FILES:
+			
+			*For Installing hadoop:
+				see demoConfigs/hadoopInstall installation configuration file.
+			
+			*For adding slave to existing cluster:
+				see demoConfigs/hadoopAddslave configuration file
+			
+			*For removing slave from existing cluster:
+				see demoConfigs/hadoopRemoveSlave configuration file.
+			
+			*For updating hadoop version:
+				see demoConfigs/hadoopUpdate configuration file

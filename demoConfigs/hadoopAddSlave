@@ -1,0 +1,13 @@
+[operation]
+opType = addSlave
+
+[slaveInfo]
+slaveName = slave01
+slaveIp = '192.168.1.1'
+
+[systemInfo]
+machineType = slave // if machine is master or slave
+hduserPassword = hadoop
+
+[paths]
+logFilePath = /opt/userLogs

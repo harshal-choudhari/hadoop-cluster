@@ -1,0 +1,30 @@
+[DEFAULT]
+ipList = NA
+hostList = NA
+
+[operation]
+opType = install //operation to perform i.e install, update, addSlave, removeSlave
+
+[masterInfo]
+masterIp = '192.168.1.2'
+masterHostName = master
+ipList = if this value is not given then it takes default value
+hostList = if this value is not given then it takes default value
+
+[systemInfo]
+hduserPassword = hadoop
+machineType = slave //if machine is master or slave
+machineIp = '192.168.1.2'
+machineHostName = slave02
+
+
+[paths]
+install_path = /opt/fts
+jar_tar_file = /root/jdk-8u65-linux-arm32-vfp-hflt.tar.gz
+hadoop_tar_file = /root/hadoop-2.6.0.tar.gz
+java_home = /opt/fts/java
+hadoop_home = /opt/fts/hadoop
+java_dir = /opt/fts/java
+hadoop_dir = /opt/fts/hadoop
+logFilePath = /opt/userLogs
+home_dir = /home/hduser
